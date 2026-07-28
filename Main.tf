@@ -1,4 +1,4 @@
 resource "azurerm_resource_group" "rg" {
   name     = "demo-rg"
-  location = "Central India"
+  location = "Central Indiaa"
 }
