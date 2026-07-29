@@ -33,7 +33,7 @@ jobs:
 
       - name: Terraform Init
         run: terraform init
-        
+
 
       - name: Terraform Format Check
         run: terraform fmt -check
@@ -43,3 +43,6 @@ jobs:
 
       - name: Terraform Plan
         run: terraform plan
+
+      - name: Terraform Apply
+        run: terraform apply -auto-approve
