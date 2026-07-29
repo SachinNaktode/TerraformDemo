@@ -74,7 +74,7 @@ resource "azurerm_linux_virtual_machine" "vm" {
 
   size = "Standard_B1s"
 
-  
+
 
 
   admin_username = var.admin_username
