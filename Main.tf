@@ -73,7 +73,7 @@ resource "azurerm_linux_virtual_machine" "vm" {
 
   location = azurerm_resource_group.rg.location
 
-  size = "Standard_B1ms"
+  size = "Standard_B1s"
 
 
 
