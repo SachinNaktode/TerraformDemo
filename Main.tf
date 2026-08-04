@@ -6,6 +6,7 @@ resource "azurerm_resource_group" "rg" {
 
 }
 
+
 resource "azurerm_virtual_network" "vnet" {
 
   name = "demo-vnet"
